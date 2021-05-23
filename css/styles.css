@@ -41,7 +41,7 @@ header > a:hover{opacity: .5;}
 header .logo a:hover{opacity: .5;}
 
 header .unext img{
-  width:1000px;
+  width:900px;
   height: auto;
   margin-top: 28px;
 }
@@ -88,9 +88,6 @@ width: 600px;
 margin: 0 auto;
 }
 
-main .unext img{
-width: 700px;
-}
 main .quote{
 margin: 0 0 12px;
 color: rgb(214, 213, 213);
@@ -176,7 +173,7 @@ font-size: 12px;
 aside{
   float: right;
   width: 30%;
-  margin: 12px;
+  margin: 10px;
 }
 
 aside .unext img{
