@@ -1,0 +1,295 @@
+
+body{
+  background: #fff;
+  margin: 0 32px;
+}
+
+header{
+  text-align: center;
+  margin: 28px auto;
+}
+
+header img{
+display: inline-block;
+width: auto;
+height: 50px;
+vertical-align: bottom;
+margin: 0;
+}
+
+header .logo{
+ display: inline-block;
+ width: 120px;
+ text-align: left;
+ line-height: 1em;
+ vertical-align: top;
+ margin: 0;
+}
+
+header .logo p{
+  margin: 0;
+  font-size: 12px;
+  width: 120px;
+}
+header .logo a{
+font-size: 12px;
+text-decoration: none;
+color: red;
+}
+
+header > a:hover{opacity: .5;}
+header .logo a:hover{opacity: .5;}
+
+header .unext img{
+  width:1000px;
+  height: auto;
+  margin-top: 28px;
+}
+
+header .link{
+  text-align: left;
+  margin-top: 32px;
+  margin-left: 30px;
+  font-size: 12px;
+}
+.movie a{
+color: rgb(129, 127, 127);
+text-decoration: none;
+}
+
+.movie a:hover{
+  text-decoration: underline;
+}
+header .title{
+  font-weight: bold;
+}
+main{
+width: 64%;
+margin: 20px;
+float: left;
+}
+
+main,aside{
+  background: #fff;
+}
+main .info{
+  display: flex;
+  justify-content: space-between;
+}
+main .info a{
+  text-align: right;
+}
+main .info a,main .info p{
+  color: rgb(214, 213, 213);
+}
+main img{
+display: block;
+width: 600px;
+margin: 0 auto;
+}
+
+main .unext img{
+width: 700px;
+}
+main .quote{
+margin: 0 0 12px;
+color: rgb(214, 213, 213);
+}
+
+.kaisetsu h1{
+  font-size: 28px;
+  color: rgb(88, 85, 85);
+}
+
+h2{
+  color: rgb(88, 85, 85);
+  border-bottom:2px solid rgb(197, 195, 195);
+  font-size: 20px;
+}
+
+p{
+  color: rgb(129, 127, 127);
+  font-size: 14px;
+  line-height: 2em;
+}
+
+main .unext img{
+  padding: 0;
+}
+
+.nazo a{
+  background: red;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 40px;
+  padding: 4px 16px;
+  box-shadow: 0px 4px rgb(100 , 0, 0) ;
+  text-decoration: none;
+  display: block;
+  width: 240px;
+  line-height: 30px;
+  margin: 40px auto;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nazo a:hover{
+  opacity: 0.5;
+}
+
+ul li{
+  list-style-type: square;
+  margin: 20px auto;
+}
+
+.wakagaeri{
+  background: rgba(128, 128, 128, 0.157);
+  border-left:10px solid gray;
+  margin: 40px auto;
+}
+.wakagaeri div{
+  display: flex;
+}
+
+.wakagaeri h3{
+font-size: 14px;
+color: rgb(88, 85, 85);
+padding-top: 12px;
+}
+
+.wakagaeri img{
+  width: 64px;
+  height: 64px;
+  margin: 0;
+}
+.wakagaeri p{
+display: inline-block;
+font-size: 12px;
+}
+
+.wakagaeri:hover{
+  opacity: .5;
+  text-decoration: underline;
+}
+
+aside{
+  float: right;
+  width: 30%;
+  margin: 12px;
+}
+
+aside .unext img{
+width: 300px;
+}
+
+aside h3{
+  color: rgb(88, 85, 85);
+  font-weight: normal;
+  border-bottom:1px solid rgb(88, 85, 85);
+  width: 300px;
+  line-height: 2em;
+}
+
+aside .pop a, aside .new a,aside .tokusyuu a{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+aside .pop a p, aside .new a p,aside .tokusyuu a p{
+  padding: 0 16px;
+  font-weight: bold;
+  width: 200px;
+}
+aside .pop img ,aside .new img, aside .tokusyuu img{
+  width: 80px;
+  height: 80px;
+  padding: 8px;
+}
+
+aside .pop a:hover,aside .new a:hover,aside .tokusyuu a:hover{
+  opacity: .5;
+  text-decoration: underline;
+}
+
+aside .tokusyuu img{
+  border-radius: 50%;
+}
+
+aside .link{
+  color: rgb(129, 127, 127);
+  border: 2px solid rgb(129, 127, 127);
+  text-decoration: none;
+  padding: 10px;
+  margin: 32px;
+  display: inline-block;
+  text-align: center;
+  width: 70%;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+aside .link:hover{
+  opacity: .5;
+  text-decoration: underline;
+}
+
+aside .unext1 img{
+  margin: 20px 16px;
+}
+
+aside .recruit{
+  display: flex;
+  color: rgb(129, 127, 127);
+  border: 2px solid rgb(129, 127, 127);
+  text-decoration: none;
+  font-size: 6px;
+  border-radius: 32px;
+  margin: 0 32px;
+  width: 260px;
+  justify-content: center;
+}
+
+aside .recruit img{
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+aside .recruit p{
+  margin: 0;
+  padding-top: 6px;
+  padding-right: 8px;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+aside .recruit img:hover{
+  opacity: .5;
+}
+
+aside .recruit:hover{
+  cursor: pointer;
+}
+
+aside .sns p{
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 12px;
+}
+
+aside .sns img{
+width: 50px;
+height: 50px;
+margin: 0 6px;
+}
+
+aside .sns{
+  margin: 32px;
+  justify-content: center;
+}
+
+aside .sns img:hover{
+  opacity: .5;
+}
